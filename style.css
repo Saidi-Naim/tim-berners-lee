@@ -91,6 +91,9 @@ ul{
     list-style-type: none;
     justify-content: center;
 }
+span{
+    background-color: #909390;
+}
 li{
     padding: 20%;
 }
@@ -105,7 +108,7 @@ a:hover{
 .movies{
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
-    row-gap: 10px;
+    row-gap: 30px;
     width: 60%;
     height: 35%;
     margin-top: 3%;
@@ -125,18 +128,31 @@ a:hover{
 }
 .text-movies{
     grid-area: 2 / 2 / 3 / 3;
+    align-self: center;
+    justify-self: center;
 }
 .img-movies2{
     grid-area: 3 / 1 / 4 / 2;
+    align-self: center;
+    justify-self: center;
 }
 .text-movies2{
     grid-area: 3 / 2 / 4 / 3;
+    align-self: center;
+    justify-self: center;
 }
 .img-movies3{
     grid-area: 4 / 1 / 5 / 2;
+    align-self: center;
+    justify-self: center;
 }
 .text-movies3{
-    grid-area: 4 / 2 / 5 / 3;;
+    grid-area: 4 / 2 / 5 / 3;
+    align-self: center;
+    justify-self: center;
+}
+b{
+    color: #98999A;
 }
 .img-movies, .img-movies2, .img-movies3{
     width: 30%;
